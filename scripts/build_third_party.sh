@@ -34,7 +34,7 @@ if [[ -z ${USE_CUDA+x} ]]; then
 fi
 
 if [[ -z ${CUDA_ARCH+x} ]]; then
-  CUDA_ARCH="70"
+  CUDA_ARCH="75"
 fi
 
 if [[ -z ${USE_CUTLASS+x} ]]; then
